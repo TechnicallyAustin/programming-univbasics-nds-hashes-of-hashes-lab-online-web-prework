@@ -43,6 +43,7 @@ def naming_system
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
 new_hash = {
+<<<<<<< HEAD
   :label => "Kingdom", :sub_category => {
     :label => "Phylum", :sub_category => {
       :label => "Class", :sub_category => {
@@ -58,4 +59,15 @@ new_hash = {
     }
   }
 new_hash
+=======
+  PORTION_1 => {
+    PORTION_2 => {
+      PORTION_3 => {PORTION_4}
+    }
+  }
+}
+}
+new_hash
+binding.pry
+>>>>>>> 9e3732848e72005bebc11e5db55fbb606174770d
 end
